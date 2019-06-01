@@ -1,0 +1,1487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="3.358" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\ppruuee\otro\SpringBoot-Tapestry-cucumber-selenium-testng"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\ppruuee\otro\SpringBoot-Tapestry-cucumber-selenium-testng"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\asus\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\maven\apache-maven-3.6.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\maven\apache-maven-3.6.0\bin;C:\Program Files\nodejs\;C:\Gradle\gradle-5.3.1\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\asus\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.4\bin;;C:\Users\asus\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\maven\apache-maven-3.6.0\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\maven\apache-maven-3.6.0\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\asus"/>
+    <property name="user.timezone" value="America/La_Paz"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="asus"/>
+    <property name="java.class.path" value="C:\maven\apache-maven-3.6.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\maven\apache-maven-3.6.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="runAllTests" classname="com.trend.sys.steps.TestHomeSteps" time="3.358">
+    <failure message="java.lang.IllegalStateException: The driver executable does not exist: E:\usr\bin\chromedriver" type="cucumber.runtime.CucumberException"><![CDATA[cucumber.runtime.CucumberException: java.lang.IllegalStateException: The driver executable does not exist: E:\usr\bin\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.trend.sys.steps.TestHomeSteps.setupForTest(TestHomeSteps.java:36)
+]]></failure>
+    <system-out><![CDATA[Feature: 
+  As a example i am trying to show case cucumber with selenium and spring boot
+12:15:25.974 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+12:15:25.985 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+12:15:25.998 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.trend.sys.steps.TestHomeSteps] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+12:15:26.009 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.trend.sys.UATBase]: class path resource [com/trend/sys/UATBase-context.xml] does not exist
+12:15:26.009 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.trend.sys.UATBase]: class path resource [com/trend/sys/UATBaseContext.groovy] does not exist
+12:15:26.009 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.trend.sys.UATBase]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:15:26.034 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.trend.sys.steps.TestHomeSteps]
+12:15:26.049 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.trend.sys.steps.TestHomeSteps]: using defaults.
+12:15:26.051 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+12:15:26.058 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+12:15:26.059 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+12:15:26.059 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6ea2bc93, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3116c353, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@f627d13, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4e928fbf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@352ff4da, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3224a577, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2e32ccc5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@748741cb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3e44f2a5]
+12:15:26.105 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+12:15:26.105 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+12:15:26.105 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+12:15:26.107 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+12:15:26.107 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding [Inlined Test Properties] PropertySource with highest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.0.RELEASE)
+
+2019-06-01 12:15:26.390  INFO 7540 --- [           main] com.trend.sys.steps.TestHomeSteps        : Starting TestHomeSteps on LAPTOP-7RVK1LFC with PID 7540 (E:\ppruuee\otro\SpringBoot-Tapestry-cucumber-selenium-testng\target\test-classes started by asus in E:\ppruuee\otro\SpringBoot-Tapestry-cucumber-selenium-testng)
+2019-06-01 12:15:26.391  INFO 7540 --- [           main] com.trend.sys.steps.TestHomeSteps        : No active profile set, falling back to default profiles: default
+2019-06-01 12:15:26.417  INFO 7540 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b956878: startup date [Sat Jun 01 12:15:26 BOT 2019]; root of context hierarchy
+2019-06-01 12:15:26.969  INFO 7540 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-06-01 12:15:27.309  INFO 7540 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9090 (http)
+2019-06-01 12:15:27.319  INFO 7540 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2019-06-01 12:15:27.320  INFO 7540 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.4
+2019-06-01 12:15:27.408  INFO 7540 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-06-01 12:15:27.408  INFO 7540 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 993 ms
+2019-06-01 12:15:27.522  INFO 7540 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-06-01 12:15:27.523  INFO 7540 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-01 12:15:27.524  INFO 7540 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-01 12:15:27.524  INFO 7540 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-01 12:15:27.524  INFO 7540 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-01 12:15:27.559  INFO 7540 --- [ost-startStop-1] o.apache.tapestry5.ioc.RegistryBuilder   : Adding module definition for class org.apache.tapestry5.ioc.modules.TapestryIOCModule
+2019-06-01 12:15:27.609  INFO 7540 --- [ost-startStop-1] o.apache.tapestry5.ioc.RegistryBuilder   : Adding module definition for class org.apache.tapestry5.json.modules.JSONModule
+2019-06-01 12:15:27.610  INFO 7540 --- [ost-startStop-1] o.apache.tapestry5.ioc.RegistryBuilder   : Adding module definition for class org.apache.tapestry5.spring.modules.SpringModule
+2019-06-01 12:15:27.616  INFO 7540 --- [ost-startStop-1] o.apache.tapestry5.ioc.RegistryBuilder   : Adding module definition for class org.apache.tapestry5.modules.TapestryModule
+2019-06-01 12:15:27.691  INFO 7540 --- [ost-startStop-1] o.apache.tapestry5.ioc.RegistryBuilder   : Adding module definition for class org.apache.tapestry5.modules.InternalModule
+2019-06-01 12:15:27.713  INFO 7540 --- [ost-startStop-1] o.apache.tapestry5.ioc.RegistryBuilder   : Adding module definition for class org.apache.tapestry5.modules.AssetsModule
+2019-06-01 12:15:27.725  INFO 7540 --- [ost-startStop-1] o.apache.tapestry5.ioc.RegistryBuilder   : Adding module definition for class org.apache.tapestry5.modules.PageLoadModule
+2019-06-01 12:15:27.728  INFO 7540 --- [ost-startStop-1] o.apache.tapestry5.ioc.RegistryBuilder   : Adding module definition for class org.apache.tapestry5.modules.JavaScriptModule
+2019-06-01 12:15:27.732  INFO 7540 --- [ost-startStop-1] o.apache.tapestry5.ioc.RegistryBuilder   : Adding module definition for class org.apache.tapestry5.modules.CompatibilityModule
+2019-06-01 12:15:27.734  INFO 7540 --- [ost-startStop-1] o.apache.tapestry5.ioc.RegistryBuilder   : Adding module definition for class org.apache.tapestry5.modules.DashboardModule
+2019-06-01 12:15:27.735  WARN 7540 --- [ost-startStop-1] org.apache.tapestry5.TapestryFilter      : Application Module class com.trend.sys.services.AppModule not found
+2019-06-01 12:15:28.014  INFO 7540 --- [ost-startStop-1] o.a.t.spring.modules.SpringModule        : Spring version 4.3.2.RELEASE with 107 defined beans.
+2019-06-01 12:15:28.053  INFO 7540 --- [ost-startStop-1] o.a.t.m.T.ComponentClassResolver         : Available pages (13):
+              (blank): com.trend.sys.pages.Index
+   ComponentLibraries: org.apache.tapestry5.corelib.pages.ComponentLibraries
+      ExceptionReport: org.apache.tapestry5.corelib.pages.ExceptionReport
+               Google: com.trend.sys.pages.Google
+         GoogleSearch: com.trend.sys.pages.GoogleSearch
+                 Home: com.trend.sys.pages.Home
+          HomePageUAT: com.trend.sys.pages.HomePageUAT
+                Index: com.trend.sys.pages.Index
+         IndexPageUAT: com.trend.sys.pages.IndexPageUAT
+          PageCatalog: org.apache.tapestry5.corelib.pages.PageCatalog
+PropertyDisplayBlocks: org.apache.tapestry5.corelib.pages.PropertyDisplayBlocks
+   PropertyEditBlocks: org.apache.tapestry5.corelib.pages.PropertyEditBlocks
+        ServiceStatus: org.apache.tapestry5.corelib.pages.ServiceStatus
+          T5Dashboard: org.apache.tapestry5.corelib.pages.T5Dashboard
+
+2019-06-01 12:15:28.053  INFO 7540 --- [ost-startStop-1] o.a.t.m.T.ComponentClassResolver         : Available components (56):
+        ActionLink: org.apache.tapestry5.corelib.components.ActionLink
+        AddRowLink: org.apache.tapestry5.corelib.components.AddRowLink
+      AjaxFormLoop: org.apache.tapestry5.corelib.components.AjaxFormLoop
+            Alerts: org.apache.tapestry5.corelib.components.Alerts
+               Any: org.apache.tapestry5.corelib.components.Any
+       BeanDisplay: org.apache.tapestry5.corelib.components.BeanDisplay
+      BeanEditForm: org.apache.tapestry5.corelib.components.BeanEditForm
+        BeanEditor: org.apache.tapestry5.corelib.components.BeanEditor
+          Checkbox: org.apache.tapestry5.corelib.components.Checkbox
+         Checklist: org.apache.tapestry5.corelib.components.Checklist
+         DateField: org.apache.tapestry5.corelib.components.DateField
+          Delegate: org.apache.tapestry5.corelib.components.Delegate
+           DevTool: org.apache.tapestry5.corelib.components.DevTool
+           Doctype: org.apache.tapestry5.corelib.components.Doctype
+           Dynamic: org.apache.tapestry5.corelib.components.Dynamic
+             Error: org.apache.tapestry5.corelib.components.Error
+            Errors: org.apache.tapestry5.corelib.components.Errors
+         EventLink: org.apache.tapestry5.corelib.components.EventLink
+  ExceptionDisplay: org.apache.tapestry5.corelib.components.ExceptionDisplay
+              Form: org.apache.tapestry5.corelib.components.Form
+      FormFragment: org.apache.tapestry5.corelib.components.FormFragment
+         Glyphicon: org.apache.tapestry5.corelib.components.Glyphicon
+              Grid: org.apache.tapestry5.corelib.components.Grid
+          GridCell: org.apache.tapestry5.corelib.components.GridCell
+       GridColumns: org.apache.tapestry5.corelib.components.GridColumns
+         GridPager: org.apache.tapestry5.corelib.components.GridPager
+          GridRows: org.apache.tapestry5.corelib.components.GridRows
+            Hidden: org.apache.tapestry5.corelib.components.Hidden
+                If: org.apache.tapestry5.corelib.components.If
+             Label: org.apache.tapestry5.corelib.components.Label
+        LinkSubmit: org.apache.tapestry5.corelib.components.LinkSubmit
+         LocalDate: org.apache.tapestry5.corelib.components.LocalDate
+              Loop: org.apache.tapestry5.corelib.components.Loop
+            Output: org.apache.tapestry5.corelib.components.Output
+         OutputRaw: org.apache.tapestry5.corelib.components.OutputRaw
+          PageLink: org.apache.tapestry5.corelib.components.PageLink
+           Palette: org.apache.tapestry5.corelib.components.Palette
+     PasswordField: org.apache.tapestry5.corelib.components.PasswordField
+ProgressiveDisplay: org.apache.tapestry5.corelib.components.ProgressiveDisplay
+   PropertyDisplay: org.apache.tapestry5.corelib.components.PropertyDisplay
+    PropertyEditor: org.apache.tapestry5.corelib.components.PropertyEditor
+             Radio: org.apache.tapestry5.corelib.components.Radio
+        RadioGroup: org.apache.tapestry5.corelib.components.RadioGroup
+     RemoveRowLink: org.apache.tapestry5.corelib.components.RemoveRowLink
+      RenderObject: org.apache.tapestry5.corelib.components.RenderObject
+            Select: org.apache.tapestry5.corelib.components.Select
+            Submit: org.apache.tapestry5.corelib.components.Submit
+    SubmitNotifier: org.apache.tapestry5.corelib.components.SubmitNotifier
+          TextArea: org.apache.tapestry5.corelib.components.TextArea
+         TextField: org.apache.tapestry5.corelib.components.TextField
+        TextOutput: org.apache.tapestry5.corelib.components.TextOutput
+      TimeInterval: org.apache.tapestry5.corelib.components.TimeInterval
+              Tree: org.apache.tapestry5.corelib.components.Tree
+           Trigger: org.apache.tapestry5.corelib.components.Trigger
+            Unless: org.apache.tapestry5.corelib.components.Unless
+              Zone: org.apache.tapestry5.corelib.components.Zone
+
+2019-06-01 12:15:28.054  INFO 7540 --- [ost-startStop-1] o.a.t.m.T.ComponentClassResolver         : Available mixins (13):
+      Autocomplete: org.apache.tapestry5.corelib.mixins.Autocomplete
+           Confirm: org.apache.tapestry5.corelib.mixins.Confirm
+       DiscardBody: org.apache.tapestry5.corelib.mixins.DiscardBody
+    FormFieldFocus: org.apache.tapestry5.corelib.mixins.FormFieldFocus
+         FormGroup: org.apache.tapestry5.corelib.mixins.FormGroup
+          NotEmpty: org.apache.tapestry5.corelib.mixins.NotEmpty
+OverrideFieldFocus: org.apache.tapestry5.corelib.mixins.OverrideFieldFocus
+    RenderClientId: org.apache.tapestry5.corelib.mixins.RenderClientId
+    RenderDisabled: org.apache.tapestry5.corelib.mixins.RenderDisabled
+   RenderInformals: org.apache.tapestry5.corelib.mixins.RenderInformals
+RenderNotification: org.apache.tapestry5.corelib.mixins.RenderNotification
+   TriggerFragment: org.apache.tapestry5.corelib.mixins.TriggerFragment
+       ZoneRefresh: org.apache.tapestry5.corelib.mixins.ZoneRefresh
+
+2019-06-01 12:15:28.077  INFO 7540 --- [ost-startStop-1] org.apache.tapestry5.TapestryFilter      : Startup status:
+
+Services:
+
+                                                                                                     AjaxComponentEventRequestHandler: DEFINED
+                                                                                                    AjaxComponentEventResultProcessor: DEFINED
+                                                                                                             AjaxFormUpdateController: DEFINED
+                                                                                                          AjaxPartialResponseRenderer: DEFINED
+                                                                                                                 AjaxResponseRenderer: DEFINED
+                                                                                                                         AlertManager: VIRTUAL
+                                                                                                                   ApplicationContext: DEFINED
+                                                                                                         ApplicationContextCustomizer: DEFINED
+                                                                                                                  ApplicationDefaults: REAL
+                                                                                                                   ApplicationGlobals: REAL
+                                                                                                               ApplicationInitializer: REAL
+                                                                                                              ApplicationStateManager: DEFINED
+                                                                                            ApplicationStatePersistenceStrategySource: DEFINED
+                                                                                                                      AspectDecorator: VIRTUAL
+                                                                                                                  AssetBindingFactory: DEFINED
+                                                                                                               AssetChecksumGenerator: DEFINED
+                                                                                                                      AssetDispatcher: DEFINED
+                                                                                                                  AssetObjectProvider: REAL
+                                                                                                                 AssetPathConstructor: DEFINED
+                                                                                                                   AssetPathConverter: DEFINED
+                                                                                                                          AssetSource: VIRTUAL
+                                                                                                                        BaseURLSource: DEFINED
+                                                                                                              BeanBlockOverrideSource: DEFINED
+                                                                                                                      BeanBlockSource: DEFINED
+                                                                                                                      BeanModelSource: DEFINED
+                                                                                                                        BindingSource: DEFINED
+                                                                                                                         ChainBuilder: VIRTUAL
+                                                                                                                     ClassNameLocator: REAL
+                                                                                                           ClasspathAssetAliasManager: DEFINED
+                                                                                                                ClasspathAssetFactory: DEFINED
+                                                                                                                     ClasspathScanner: REAL
+                                                                                                                ClasspathURLConverter: REAL
+                                                                                                                ClientBehaviorSupport: DEFINED
+                                                                                                                    ClientDataEncoder: DEFINED
+                                                                                                         ClientPersistentFieldStorage: DEFINED
+                                                                                                        ClientPersistentFieldStrategy: DEFINED
+                                                                                                                      ClientWhitelist: DEFINED
+                                                                                                                        Compatibility: DEFINED
+                                                                                                                  ComponentClassCache: DEFINED
+                                                                                                               ComponentClassResolver: REAL
+                                                                                                        ComponentClassTransformWorker: DEFINED
+                                                                                                 ComponentClassesInvalidationEventHub: REAL
+                                                                                                             ComponentDefaultProvider: DEFINED
+                                                                                                            ComponentEventLinkEncoder: DEFINED
+                                                                                                        ComponentEventLinkTransformer: DEFINED
+                                                                                                         ComponentEventRequestHandler: DEFINED
+                                                                                                        ComponentEventResultProcessor: DEFINED
+                                                                                                     ComponentInstanceResultProcessor: DEFINED
+                                                                                                          ComponentInstantiatorSource: DEFINED
+                                                                                                           ComponentLibraryInfoSource: DEFINED
+                                                                                                ComponentMessagesInvalidationEventHub: DEFINED
+                                                                                                              ComponentMessagesSource: DEFINED
+                                                                                                                 ComponentModelSource: DEFINED
+                                                                                                                    ComponentOverride: REAL
+                                                                                                  ComponentPageElementResourcesSource: DEFINED
+                                                                                                                ComponentProxyFactory: DEFINED
+                                                                                                              ComponentRequestHandler: DEFINED
+                                                                                                     ComponentRequestSelectorAnalyzer: DEFINED
+                                                                                                             ComponentResourceLocator: DEFINED
+                                                                                                                      ComponentSource: VIRTUAL
+                                                                                                             ComponentTemplateLocator: DEFINED
+                                                                                                              ComponentTemplateSource: DEFINED
+                                                                                               ComponentTemplatesInvalidationEventHub: DEFINED
+                                                                                                                  CompressionAnalyzer: DEFINED
+                                                                                                                  ContentTypeAnalyzer: DEFINED
+                                                                                                                              Context: DEFINED
+                                                                                                                  ContextAssetFactory: DEFINED
+                                                                                                                ContextBindingFactory: DEFINED
+                                                                                                                   ContextPathEncoder: DEFINED
+                                                                                                                  ContextValueEncoder: DEFINED
+                                                                                                                           CookieSink: DEFINED
+                                                                                                                         CookieSource: DEFINED
+                                                                                                                              Cookies: DEFINED
+                                                                                                                  CoreJavaScriptStack: DEFINED
+                                                                                                                     DashboardManager: DEFINED
+                                                                                                                     DataTypeAnalyzer: DEFINED
+                                                                                                                        DateUtilities: DEFINED
+                                                                                                              DefaultDataTypeAnalyzer: DEFINED
+                                                                                                         DefaultImplementationBuilder: VIRTUAL
+                                                                                                                    DeferredExecution: DEFINED
+                                                                                                                   DeprecationWarning: DEFINED
+                                                                                                                DynamicTemplateParser: VIRTUAL
+                                                                                                                 EndOfRequestEventHub: REAL
+                                                                                                                          Environment: DEFINED
+                                                                                                           EnvironmentalShadowBuilder: VIRTUAL
+                                                                                                                    ExceptionAnalyzer: DEFINED
+                                                                                                                ExceptionReportWriter: DEFINED
+                                                                                                                    ExceptionReporter: DEFINED
+                                                                                                                     ExceptionTracker: DEFINED
+                                                                                                                      FactoryDefaults: REAL
+                                                                                                                FieldTranslatorSource: DEFINED
+                                                                                                               FieldValidationSupport: DEFINED
+                                                                                                          FieldValidatorDefaultSource: DEFINED
+                                                                                                                 FieldValidatorSource: DEFINED
+                                                                                                               FormControlNameManager: DEFINED
+                                                                                                                          FormSupport: DEFINED
+                                                                                                                            Heartbeat: DEFINED
+                                                                                                             HiddenFieldLocationRules: DEFINED
+                                                                                                                         Html5Support: DEFINED
+                                                                                                                   HttpServletRequest: DEFINED
+                                                                                                            HttpServletRequestHandler: VIRTUAL
+                                                                                                                  HttpServletResponse: DEFINED
+                                                                                                                   IgnoredPathsFilter: DEFINED
+                                                                                                                    InjectionProvider: DEFINED
+                                                                                                InternalComponentInvalidationEventHub: REAL
+                                                                                                              InternalJavaScriptStack: DEFINED
+                                                                                                               InternalRequestGlobals: DEFINED
+                                                                                                             JavaScriptStackAssembler: DEFINED
+                                                                                                       JavaScriptStackPathConstructor: DEFINED
+                                                                                                                JavaScriptStackSource: DEFINED
+                                                                                                                    JavaScriptSupport: DEFINED
+                                                                                                                          LazyAdvisor: DEFINED
+                                                                                                                      LinkCreationHub: DEFINED
+                                                                                                                           LinkSource: DEFINED
+                                                                                                                      LinkTransformer: DEFINED
+                                                                                                                   LocalizationSetter: VIRTUAL
+                                                                                                                     LocationRenderer: DEFINED
+                                                                                                                         LoggerSource: BUILTIN
+                                                                                                                       LoggingAdvisor: DEFINED
+                                                                                                                     LoggingDecorator: DEFINED
+                                                                                                                       MarkupRenderer: DEFINED
+                                                                                                                  MarkupWriterFactory: DEFINED
+                                                                                                                     MasterDispatcher: DEFINED
+                                                                                                                 MasterObjectProvider: REAL
+                                                                                                      MasterStackTraceElementAnalyzer: DEFINED
+                                                                                                                MessageBindingFactory: DEFINED
+                                                                                                                      MetaDataLocator: DEFINED
+                                                                                                                           MetaWorker: DEFINED
+                                                                                                                        ModuleManager: DEFINED
+                                                                                                      NullFieldStrategyBindingFactory: DEFINED
+                                                                                                              NullFieldStrategySource: DEFINED
+                                                                                                             NumericTranslatorSupport: DEFINED
+                                                                                                                       ObjectRenderer: DEFINED
+                                                                                                                     OperationAdvisor: DEFINED
+                                                                                                       PageActivationContextCollector: DEFINED
+                                                                                                                        PageActivator: DEFINED
+                                                                                                              PageContentTypeAnalyzer: DEFINED
+                                                                                                                PageDocumentGenerator: DEFINED
+                                                                                                                   PageElementFactory: DEFINED
+                                                                                                                           PageLoader: DEFINED
+                                                                                                                   PageMarkupRenderer: DEFINED
+                                                                                                                        PagePreloader: REAL
+                                                                                                                 PageRenderLinkSource: DEFINED
+                                                                                                            PageRenderLinkTransformer: DEFINED
+                                                                                                                      PageRenderQueue: DEFINED
+                                                                                                             PageRenderRequestHandler: DEFINED
+                                                                                                                 PageResponseRenderer: DEFINED
+                                                                                                                           PageSource: DEFINED
+                                                                                                                PartialMarkupRenderer: DEFINED
+                                                                                                              PartialTemplateRenderer: DEFINED
+                                                                                                                      PathConstructor: DEFINED
+                                                                                                                     PeriodicExecutor: DEFINED
+                                                                                                               PersistentFieldManager: DEFINED
+                                                                                                                     PersistentLocale: DEFINED
+                                                                                                                     PerthreadManager: BUILTIN
+                                                                                                                      PipelineBuilder: REAL
+                                                                                                                  PlasticProxyFactory: BUILTIN
+                                                                                                                   PropBindingFactory: DEFINED
+                                                                                                                 PropertiesFileParser: DEFINED
+                                                                                                                       PropertyAccess: VIRTUAL
+                                                                                                                PropertyConduitSource: DEFINED
+                                                                                                                PropertyShadowBuilder: VIRTUAL
+                                                                                                                  RegistryShutdownHub: BUILTIN
+                                                                                                                      RegistryStartup: REAL
+                                                                                                                         ReloadHelper: REAL
+                                                                                                                              Request: VIRTUAL
+                                                                                                              RequestExceptionHandler: DEFINED
+                                                                                                                       RequestGlobals: DEFINED
+                                                                                                                       RequestHandler: DEFINED
+                                                                                                                     RequestPageCache: DEFINED
+                                                                                                               RequestSecurityManager: DEFINED
+                                                                                                                ResourceChangeTracker: DEFINED
+                                                                                                              ResourceDigestGenerator: DEFINED
+                                                                                                                ResourceDigestManager: DEFINED
+                                                                                                                    ResourceMinimizer: DEFINED
+                                                                                                                     ResourceStreamer: DEFINED
+                                                                                                                             Response: VIRTUAL
+                                                                                                          ResponseCompressionAnalyzer: DEFINED
+                                                                                                                     ResponseRenderer: DEFINED
+                                                                                                                   SelectModelFactory: DEFINED
+                                                                                                            ServiceActivityScoreboard: BUILTIN
+                                                                                                      ServiceConfigurationListenerHub: DEFINED
+                                                                                                               ServiceLifecycleSource: REAL
+                                                                                                                      ServiceOverride: REAL
+                                                                                                        ServletApplicationInitializer: REAL
+                                                                                           SessionApplicationStatePersistenceStrategy: DEFINED
+                                                                                                       SessionPersistedObjectAnalyzer: DEFINED
+                                                                                                                      StrategyBuilder: VIRTUAL
+                                                                                                             StreamableResourceSource: DEFINED
+                                                                                                                       StringInterner: DEFINED
+                                                                                                                 SymbolBindingFactory: DEFINED
+                                                                                                                         SymbolSource: REAL
+                                                                                                               TapestrySessionFactory: DEFINED
+                                                                                                                       TemplateParser: DEFINED
+                                                                                                                         ThreadLocale: DEFINED
+                                                                                                                         ThunkCreator: DEFINED
+                                                                                                              TranslateBindingFactory: DEFINED
+                                                                                                           TranslatorAlternatesSource: DEFINED
+                                                                                                                     TranslatorSource: DEFINED
+                                                                                                                          TypeCoercer: REAL
+                                                                                                                           URLEncoder: DEFINED
+                                                                                                      UnknownActivationContextHandler: DEFINED
+                                                                                                                    UpdateListenerHub: DEFINED
+                                                                                                               ValidateBindingFactory: DEFINED
+                                                                                                        ValidationConstraintGenerator: DEFINED
+                                                                                                           ValidationDecoratorFactory: DEFINED
+                                                                                                                       ValidatorMacro: DEFINED
+                                                                                                                   ValueEncoderSource: DEFINED
+                                                                                                                   ValueLabelProvider: DEFINED
+                                                                                                                 basicErrorController: DEFINED
+                                                                                                               beanNameHandlerMapping: DEFINED
+                                                                                                                 beanNameViewResolver: DEFINED
+                                                                                                              characterEncodingFilter: DEFINED
+                                                                                                          conventionErrorViewResolver: DEFINED
+                                                                                                         defaultServletHandlerMapping: DEFINED
+                                                                                                                  defaultViewResolver: DEFINED
+                                                                                                                    dispatcherServlet: DEFINED
+                                                                                                        dispatcherServletRegistration: DEFINED
+                                                                                                    duplicateServerPropertiesDetector: DEFINED
+                                                                                  embeddedServletContainerCustomizerBeanPostProcessor: DEFINED
+                                                                                                                                error: DEFINED
+                                                                                                                      errorAttributes: DEFINED
+                                                                                                                  errorPageCustomizer: DEFINED
+                                                                                                  errorPageRegistrarBeanPostProcessor: DEFINED
+                                                                                                                faviconHandlerMapping: DEFINED
+                                                                                                                faviconRequestHandler: DEFINED
+                                                                                                                                 gson: DEFINED
+                                                                                                             handlerExceptionResolver: DEFINED
+                                                                                                               hiddenHttpMethodFilter: DEFINED
+                                                                                                             httpPutFormContentFilter: DEFINED
+                                                                                                            httpRequestHandlerAdapter: DEFINED
+                                                                                                                  jacksonObjectMapper: DEFINED
+                                                                                                           jacksonObjectMapperBuilder: DEFINED
+                                                                                                                  jsonComponentModule: DEFINED
+                                                                                                      localeCharsetMappingsCustomizer: DEFINED
+                                                                                                                      mainApplication: DEFINED
+                                                                                                  mappingJackson2HttpMessageConverter: DEFINED
+                                                                                                                    messageConverters: DEFINED
+                                                                                                               multipartConfigElement: DEFINED
+                                                                                                                    multipartResolver: DEFINED
+                                                                                                         mvcContentNegotiationManager: DEFINED
+                                                                                                                 mvcConversionService: DEFINED
+                                                                                                                       mvcPathMatcher: DEFINED
+                                                                                                               mvcResourceUrlProvider: DEFINED
+                                                                                                          mvcUriComponentsContributor: DEFINED
+                                                                                                                     mvcUrlPathHelper: DEFINED
+                                                                                                                         mvcValidator: DEFINED
+                                                                                                                      mvcViewResolver: DEFINED
+                                                                     org.springframework.boot.autoconfigure.AutoConfigurationPackages: DEFINED
+                                                          org.springframework.boot.autoconfigure.PropertyPlaceholderAutoConfiguration: DEFINED
+                                                                    org.springframework.boot.autoconfigure.condition.BeanTypeRegistry: DEFINED
+                                              org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration: DEFINED
+                                                                    org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration: DEFINED
+                                                             org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration: DEFINED
+                                                          org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory: DEFINED
+                                                              org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration: DEFINED
+           org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration: DEFINED
+                      org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration: DEFINED
+                             org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration: DEFINED
+                                                        org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration: DEFINED
+                         org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletConfiguration: DEFINED
+             org.springframework.boot.autoconfigure.web.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration: DEFINED
+                                                 org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration: DEFINED
+                                  org.springframework.boot.autoconfigure.web.EmbeddedServletContainerAutoConfiguration$EmbeddedTomcat: DEFINED
+                                                                 org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration: DEFINED
+                                org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration: DEFINED
+                                                    org.springframework.boot.autoconfigure.web.GsonHttpMessageConvertersConfiguration: DEFINED
+                                                             org.springframework.boot.autoconfigure.web.HttpEncodingAutoConfiguration: DEFINED
+                                                    org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration: DEFINED
+            org.springframework.boot.autoconfigure.web.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration: DEFINED
+                                                 org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration: DEFINED
+org.springframework.boot.autoconfigure.web.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration: DEFINED
+                                                                org.springframework.boot.autoconfigure.web.MultipartAutoConfiguration: DEFINED
+                                                         org.springframework.boot.autoconfigure.web.ServerPropertiesAutoConfiguration: DEFINED
+                                                                org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration: DEFINED
+                                      org.springframework.boot.autoconfigure.web.WebClientAutoConfiguration$RestTemplateConfiguration: DEFINED
+                                                                   org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration: DEFINED
+                                         org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$EnableWebMvcConfiguration: DEFINED
+                                    org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter: DEFINED
+               org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration: DEFINED
+                                                          org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration: DEFINED
+                             org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration$TomcatWebSocketConfiguration: DEFINED
+                                              org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor: DEFINED
+                                        org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor.store: DEFINED
+                                                                      org.springframework.boot.test.mock.mockito.MockitoPostProcessor: DEFINED
+                                                     org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor: DEFINED
+                                org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor: DEFINED
+                                          org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor: DEFINED
+                                                          org.springframework.context.annotation.internalAutowiredAnnotationProcessor: DEFINED
+                                                             org.springframework.context.annotation.internalCommonAnnotationProcessor: DEFINED
+                                                      org.springframework.context.annotation.internalConfigurationAnnotationProcessor: DEFINED
+                                                           org.springframework.context.annotation.internalRequiredAnnotationProcessor: DEFINED
+                                                                       org.springframework.context.event.internalEventListenerFactory: DEFINED
+                                                                     org.springframework.context.event.internalEventListenerProcessor: DEFINED
+                                                                                      preserveErrorControllerTargetClassPostProcessor: DEFINED
+                                                                                                 propertySourcesPlaceholderConfigurer: DEFINED
+                                                                                                                 requestContextFilter: DEFINED
+                                                                                                         requestMappingHandlerAdapter: DEFINED
+                                                                                                         requestMappingHandlerMapping: DEFINED
+                                                                                                               resourceHandlerMapping: DEFINED
+                                                                                                                  restTemplateBuilder: DEFINED
+                                                                                                                     serverProperties: DEFINED
+                                                                                                       simpleControllerHandlerAdapter: DEFINED
+                                               spring.http.encoding-org.springframework.boot.autoconfigure.web.HttpEncodingProperties: DEFINED
+                                                 spring.http.multipart-org.springframework.boot.autoconfigure.web.MultipartProperties: DEFINED
+                                                        spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties: DEFINED
+                                                      spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties: DEFINED
+                                                               spring.mvc-org.springframework.boot.autoconfigure.web.WebMvcProperties: DEFINED
+                                                       spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties: DEFINED
+                                                                                         standardJacksonObjectMapperBuilderCustomizer: DEFINED
+                                                                                                           stringHttpMessageConverter: DEFINED
+                                                                                                                     testRestTemplate: DEFINED
+                                                                                                tomcatEmbeddedServletContainerFactory: DEFINED
+                                                                                                         viewControllerHandlerMapping: DEFINED
+                                                                                                                         viewResolver: DEFINED
+                                                                                                         websocketContainerCustomizer: DEFINED
+
+91,14% unrealized services (288/316)
+
+Application 'app' (version 0.0.1) startup time: 160 ms to build IoC Registry, 482 ms overall.
+
+ ______                  __             ____
+/_  __/__ ____  ___ ___ / /_______ __  / __/
+ / / / _ `/ _ \/ -_|_-</ __/ __/ // / /__ \ 
+/_/  \_,_/ .__/\__/___/\__/_/  \_, / /____/
+        /_/                   /___/  5.4.1
+
+
+2019-06-01 12:15:28.663  INFO 7540 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3b956878: startup date [Sat Jun 01 12:15:26 BOT 2019]; root of context hierarchy
+2019-06-01 12:15:28.714  INFO 7540 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-01 12:15:28.715  INFO 7540 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-01 12:15:28.733  INFO 7540 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-01 12:15:28.734  INFO 7540 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-01 12:15:28.761  INFO 7540 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-01 12:15:28.889  INFO 7540 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9090 (http)
+2019-06-01 12:15:28.891  INFO 7540 --- [           main] com.trend.sys.steps.TestHomeSteps        : Started TestHomeSteps in 2.783 seconds (JVM running for 3.621)
+&amp#27;[31mFailure in before hook:&amp#27;[0m&amp#27;[31mTestHomeSteps.setupForTest()&amp#27;[0m
+&amp#27;[31mMessage: &amp#27;[0m&amp#27;[31mjava.lang.IllegalStateException: The driver executable does not exist: E:\usr\bin\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.trend.sys.steps.TestHomeSteps.setupForTest(TestHomeSteps.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+&amp#27;[0m
+      &amp#27;[31mjava.lang.IllegalStateException: The driver executable does not exist: E:\usr\bin\chromedriver
+      	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+      	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+      	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+      	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+      	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+      	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+      	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+      	at com.trend.sys.steps.TestHomeSteps.setupForTest(TestHomeSteps.java:36)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at cucumber.runtime.Utils$1.call(Utils.java:37)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.Utils.invoke(Utils.java:31)
+      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+      	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+      	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+      	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+      	at org.testng.TestRunner.run(TestRunner.java:621)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+      	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+      	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+      	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+      	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+      	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+      	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+      	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+      	at org.testng.TestNG.run(TestNG.java:1032)
+      	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+      	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+      	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+      &amp#27;[0m
+&amp#27;[31mFailure in after hook:&amp#27;[0m&amp#27;[31mTestHomeSteps.shutDown(Scenario)&amp#27;[0m
+&amp#27;[31mMessage: &amp#27;[0m&amp#27;[31mjava.lang.NullPointerException
+	at com.trend.sys.steps.TestHomeSteps.shutDown(TestHomeSteps.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+      	at com.trend.sys.steps.TestHomeSteps.shutDown(TestHomeSteps.java:42)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at cucumber.runtime.Utils$1.call(Utils.java:37)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.Utils.invoke(Utils.java:31)
+      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+      	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+      	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+      	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+      	at org.testng.TestRunner.run(TestRunner.java:621)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+      	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+      	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+      	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+      	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+      	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+      	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+      	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+      	at org.testng.TestNG.run(TestNG.java:1032)
+      	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+      	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+      	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+      &amp#27;[0m
+2019-06-01 12:15:28.930  INFO 7540 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.trend.sys.UATBase]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-01 12:15:28.934  INFO 7540 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-01 12:15:28.935  INFO 7540 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2019-06-01 12:15:28.936  INFO 7540 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2019-06-01 12:15:28.936  INFO 7540 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@79b2852b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@326d27ac, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@4d499d65, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@313f8301, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5cc9d3d0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7c2dfa2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@661d88a, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b0b64cc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@59ce792e]
+2019-06-01 12:15:28.936  INFO 7540 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@404db674] to [cucumber.runtime.java.spring.GlueCodeScope@50f097b5]
+&amp#27;[31mFailure in before hook:&amp#27;[0m&amp#27;[31mTestHomeSteps.setupForTest()&amp#27;[0m
+&amp#27;[31mMessage: &amp#27;[0m&amp#27;[31mjava.lang.IllegalStateException: The driver executable does not exist: E:\usr\bin\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.trend.sys.steps.TestHomeSteps.setupForTest(TestHomeSteps.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+&amp#27;[0m
+      &amp#27;[31mjava.lang.IllegalStateException: The driver executable does not exist: E:\usr\bin\chromedriver
+      	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+      	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+      	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+      	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+      	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+      	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+      	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+      	at com.trend.sys.steps.TestHomeSteps.setupForTest(TestHomeSteps.java:36)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at cucumber.runtime.Utils$1.call(Utils.java:37)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.Utils.invoke(Utils.java:31)
+      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+      	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+      	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+      	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+      	at org.testng.TestRunner.run(TestRunner.java:621)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+      	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+      	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+      	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+      	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+      	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+      	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+      	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+      	at org.testng.TestNG.run(TestNG.java:1032)
+      	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+      	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+      	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+      &amp#27;[0m
+
+  Scenario: view Home Page                    &amp#27;[90m# TestHome.feature:4&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mthe user enters Index page&amp#27;[0m          &amp#27;[90m# TestHomeSteps.setup()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser navigates to home page&amp#27;[0m          &amp#27;[90m# TestHomeSteps.userNavigatesToHome()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser should be able to see home page&amp#27;[0m &amp#27;[90m# TestHomeSteps.checkForAllHeaders()&amp#27;[0m
+&amp#27;[31mFailure in after hook:&amp#27;[0m&amp#27;[31mTestHomeSteps.shutDown(Scenario)&amp#27;[0m
+&amp#27;[31mMessage: &amp#27;[0m&amp#27;[31mjava.lang.NullPointerException
+	at com.trend.sys.steps.TestHomeSteps.shutDown(TestHomeSteps.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+      	at com.trend.sys.steps.TestHomeSteps.shutDown(TestHomeSteps.java:42)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at cucumber.runtime.Utils$1.call(Utils.java:37)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.Utils.invoke(Utils.java:31)
+      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+      	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+      	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+      	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+      	at org.testng.TestRunner.run(TestRunner.java:621)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+      	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+      	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+      	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+      	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+      	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+      	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+      	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+      	at org.testng.TestNG.run(TestNG.java:1032)
+      	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+      	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+      	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+      &amp#27;[0m
+2019-06-01 12:15:28.943  INFO 7540 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.trend.sys.UATBase]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-01 12:15:28.947  INFO 7540 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-01 12:15:28.948  INFO 7540 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2019-06-01 12:15:28.948  INFO 7540 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2019-06-01 12:15:28.948  INFO 7540 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@642413d4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@fb2e3fd, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@43a09ce2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3f183caa, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7b66322e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@63538bb4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@24534cb0, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5a50d9fc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@106d77da]
+2019-06-01 12:15:28.949  INFO 7540 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@50f097b5] to [cucumber.runtime.java.spring.GlueCodeScope@5114b7c7]
+&amp#27;[31mFailure in before hook:&amp#27;[0m&amp#27;[31mTestHomeSteps.setupForTest()&amp#27;[0m
+&amp#27;[31mMessage: &amp#27;[0m&amp#27;[31mjava.lang.IllegalStateException: The driver executable does not exist: E:\usr\bin\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.trend.sys.steps.TestHomeSteps.setupForTest(TestHomeSteps.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+&amp#27;[0m
+      &amp#27;[31mjava.lang.IllegalStateException: The driver executable does not exist: E:\usr\bin\chromedriver
+      	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+      	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+      	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+      	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+      	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+      	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+      	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+      	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+      	at com.trend.sys.steps.TestHomeSteps.setupForTest(TestHomeSteps.java:36)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at cucumber.runtime.Utils$1.call(Utils.java:37)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.Utils.invoke(Utils.java:31)
+      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+      	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+      	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+      	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+      	at org.testng.TestRunner.run(TestRunner.java:621)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+      	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+      	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+      	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+      	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+      	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+      	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+      	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+      	at org.testng.TestNG.run(TestNG.java:1032)
+      	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+      	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+      	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+      &amp#27;[0m
+
+  Scenario: login in duck duck and search something &amp#27;[90m# TestHome.feature:9&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mthe user login in google&amp#27;[0m                  &amp#27;[90m# TestHomeSteps.theUserLoginInGoogle()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mwrite something in label&amp#27;[0m                    &amp#27;[90m# TestHomeSteps.writeSomethingInLabel()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mput the button search&amp#27;[0m                       &amp#27;[90m# TestHomeSteps.putTheButtonSearch()&amp#27;[0m
+&amp#27;[31mFailure in after hook:&amp#27;[0m&amp#27;[31mTestHomeSteps.shutDown(Scenario)&amp#27;[0m
+&amp#27;[31mMessage: &amp#27;[0m&amp#27;[31mjava.lang.NullPointerException
+	at com.trend.sys.steps.TestHomeSteps.shutDown(TestHomeSteps.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+      	at com.trend.sys.steps.TestHomeSteps.shutDown(TestHomeSteps.java:42)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at cucumber.runtime.Utils$1.call(Utils.java:37)
+      	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+      	at cucumber.runtime.Utils.invoke(Utils.java:31)
+      	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+      	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+      	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+      	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)
+      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+      	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+      	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+      	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+      	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+      	at java.lang.reflect.Method.invoke(Method.java:498)
+      	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+      	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+      	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+      	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+      	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+      	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+      	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+      	at org.testng.TestRunner.run(TestRunner.java:621)
+      	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+      	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+      	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+      	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+      	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+      	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+      	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+      	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+      	at org.testng.TestNG.run(TestNG.java:1032)
+      	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+      	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+      	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+      	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+      	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+      	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+      &amp#27;[0m
+
+  Scenario: borrarb enstmtlkmlkd &amp#27;[90m# TestHome.feature:14&amp#27;[0m
+    &amp#27;[36mGiven &amp#27;[0m&amp#27;[36mejecutar for XD&amp#27;[0m        &amp#27;[90m# TestHomeSteps.ejecutarForXD()&amp#27;[0m
+
+&amp#27;[31mFailed scenarios:&amp#27;[0m
+&amp#27;[31mTestHome.feature:4 &amp#27;[0m# Scenario: view Home Page
+&amp#27;[31mTestHome.feature:9 &amp#27;[0m# Scenario: login in duck duck and search something
+&amp#27;[31mTestHome.feature:14 &amp#27;[0m# Scenario: borrarb enstmtlkmlkd
+
+3 Scenarios (&amp#27;[31m3 failed&amp#27;[0m)
+7 Steps (&amp#27;[36m7 skipped&amp#27;[0m)
+0m0,029s
+
+java.lang.IllegalStateException: The driver executable does not exist: E:\usr\bin\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.trend.sys.steps.TestHomeSteps.setupForTest(TestHomeSteps.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+java.lang.NullPointerException
+	at com.trend.sys.steps.TestHomeSteps.shutDown(TestHomeSteps.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+java.lang.IllegalStateException: The driver executable does not exist: E:\usr\bin\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.trend.sys.steps.TestHomeSteps.setupForTest(TestHomeSteps.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+java.lang.NullPointerException
+	at com.trend.sys.steps.TestHomeSteps.shutDown(TestHomeSteps.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+java.lang.IllegalStateException: The driver executable does not exist: E:\usr\bin\chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:199)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:121)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:116)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:116)
+	at com.trend.sys.steps.TestHomeSteps.setupForTest(TestHomeSteps.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:201)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+java.lang.NullPointerException
+	at com.trend.sys.steps.TestHomeSteps.shutDown(TestHomeSteps.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:37)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:13)
+	at cucumber.runtime.Utils.invoke(Utils.java:31)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:223)
+	at cucumber.runtime.Runtime.runHooks(Runtime.java:211)
+	at cucumber.runtime.Runtime.runAfterHooks(Runtime.java:205)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)
+	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
+	at cucumber.api.testng.TestNGCucumberRunner.runCukes(TestNGCucumberRunner.java:50)
+	at com.trend.sys.UATBase.runAllTests(UATBase.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+]]></system-out>
+  </testcase>
+</testsuite>

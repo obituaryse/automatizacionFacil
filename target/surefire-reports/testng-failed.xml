@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Test Suite]">
+  <test name="Test Cases(failed)">
+    <classes>
+      <class name="com.trend.sys.steps.TestHomeSteps">
+        <methods>
+          <include name="runAllTests"/>
+        </methods>
+      </class> <!-- com.trend.sys.steps.TestHomeSteps -->
+    </classes>
+  </test> <!-- Test Cases(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
